@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GalleryPuppy</title>
+  <link rel="stylesheet" href="assets/normalize.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Puppy</h1>
+    <img class="gallery" src="assets/images/pic1.jpg"  id="pic"> </img> 
+    
+    <div class="buttons">
+      <button onClick="javascript: leftArrow()">Previos</button>
+      <button onClick="javascript: rightArrow()">Next</button>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
